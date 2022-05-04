@@ -3,6 +3,7 @@ package golf
 import "fmt"
 
 
-func Show() {
+func Show() string{
     fmt.Println("OK")
+    return "OK"
 }
